@@ -18,7 +18,7 @@ function updateItem() {
     this.parentNode.className = "";
 }
 function itemKeypress(event) {
-    if (event.which === 13);
+    if (event.which === 10);
     updateItem.call(this)
 }
 
